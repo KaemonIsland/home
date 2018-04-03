@@ -11,30 +11,49 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #66d9ff;
+    background-color: #b3ffff;
     Padding: 1rem 0;
     margin: 0 auto;
     position: fixed;
     width: 100%;
     z-index: 1;
+    border-bottom: 2px solid #3cf;
   }
   .desktop {
     display: none;
   }
+  .border {
+    border: 1px solid #f93;
+    padding: .5rem;
+    border-radius: 5px;
+    background-color: #ffbf80;
+  }
   .logo {
-    padding-left: 2rem;
+    margin-left: 2rem;
   }
   .mobile {
-    padding-right: 2rem;
+    margin-right: 2rem;
     color: Black;
     text-decoration: none;
-    border
   }
   /* Header */
   .selfie {
     max-width: 100%;
     height: auto;
     margin-top: 3rem;
+    margin-bottom: -0.20rem;
   }
+  /* Quote */
+  .quote {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #b3ffff;
+    padding: .5rem 0;
+    border-bottom: 2px solid #3cf;
+  }
+  .from {
+    font-size: 1rem;
+  }
+  /* Projects */
 
 }
