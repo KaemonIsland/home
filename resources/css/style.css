@@ -1,0 +1,38 @@
+body {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 480px) {
+  /* Navigation */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #66d9ff;
+    Padding: 1rem;
+    border: 2px solid #06C;
+    border-radius: 5px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    color: Black;
+    text-decoration: none;
+    border
+  }
+  /* Header */
+  .selfie {
+    max-width: 100%;
+    height: auto;
+    margin-top: 3.25rem;
+  }
+  p {
+    width: 90%;
+  }
+
+}
