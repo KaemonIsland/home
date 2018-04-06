@@ -6,81 +6,81 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./resources/css/reset.css">
   <link rel="stylesheet" href="./resources/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua:700" rel="stylesheet">
   <title>Kaemon Lovendahl</title>
 </head>
 <body>
+  <!-- Navigation -->
   <nav>
     <div class="navigation">
-      <div class="border logo">
-        <h3>KaemonIsland</h3>
+      <div class="name">
+        <svg height="100" width="80">
+          <polyline points="10,10 10,90 70,90 70,15 15,50 70,90"
+  style="fill:none;stroke:white;stroke-width:10" />
+        </svg>
+        <h3>Kaemon Lovendahl</h3>
       </div>
-      <div>
-        <span><a class="border mobile" href="#">Home</a></span>
-        <span><a class="desktop" href="#">Skills</a></span>
-        <span><a class="desktop" href="#">Resources</a></span>
-        <span><a class="desktop" href="#">Projects</a></span>
-        <span><a class="desktop" href="#">Contact</a></span>
+      <div class="nav">
+        <span><a class="link mobile" href="#">Home</a></span>
+        <span><a class="link desktop" href="#projects">Projects</a></span>
+        <span><a class="link desktop" href="#about-me">About Me</a></span>
+        <span><a class="link desktop" href="#contact">Contact</a></span>
       </div>
     </div>
   </nav>
-
+  <!-- Header -->
   <header>
-    <img class="selfie" src="./resources/images/selfie.jpg" alt="A picture of Kaemon Lovendahl"/>
-  </header>
-
-  <section>
-    <artic>
-      <div class="quote">
-        <h2>"Life opens up opportunities to you, and you either take them or you stay afraid of taking them." <span class="from">-Jim Carrey</span></h2>
+      <div class="header">
+        <div class="intro">
+          <h2>Front-End Web Developer</h2>
+        </div>
       </div>
-    </artic>
+  </header>
+<!-- Quote -->
+  <section>
     <article>
-      <h2>Projects</h2>
-      <h3>beginner</h3>
-      <ul>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-      </ul>
-      <h3>intermediate</h3>
-      <ul>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-      </ul>
+      <div class="quote">
+        <blockquote>"Life opens up opportunities to you, and you either take them or you stay afraid of taking them." <span class="speaker">-Jim Carrey</span></blockquote>
+      </div>
     </article>
+<!-- Project -->
     <article>
-      <h2>Skills</h2>
-
-      <h3>HTML</h3>
-      <ul>
-        <li></li>
-      </ul>
-
-      <h3>CSS</h3>
-      <ul>
-        <li></li>
-        <li></li>
-      </ul>
-
-      <h3>Javascript</h3>
-      <ul>
-        <li></li>
-        <li></li>
-      </ul>
+      <div class="projects" id="projects">
+        <h2>Projects</h2>
+      </div>
+      <div class="example">
+        <figure>
+          <a href="https://kaemonisland.github.io/MyTimes/" target="_blank">
+            <img class="website" src="./resources/images/MyTimes.jpg" alt="My Times website thumbnail">
+          </a>
+        </figure>
+        <figure>
+          <a href="https://kaemonisland.github.io/SecretAgentSupply/" target="_blank">
+            <img class="website" src="./resources/images/SecretAgentSupply.jpg" alt="Secret Agent Supply website thumbnail">
+          </a>
+        </figure>
+        <figure>
+          <a href="https://kaemonisland.github.io/TortoiseshellOptics/" target="_blank">
+            <img class="website" src="./resources/images/TortoiseshellOptics.jpg" alt="Tortoiseshell Optics website thumbnail">
+          </a>
+        </figure>
+      </div>
     </article>
     <articl>
+      <div class="projects" id="about-me">
       <h2>About ME</h2>
-      <p>Hello! My name is Kaemon Lovendahl. I hope you enjoyed looking into
-        my projects. I am a husband and father of two beautiful children. I am
-        trying to teach myself to code using  <a href="#">FreeCodeCamp</a> and
-        <a href="#">CodeCademy</a>. Please feel free to respond to me if you have
-        feedback!</p>
+      <div class="about-me">
+      <p>Hello, my name is <span class="author">Kaemon Lovendahl</span>. I am a <span>Junior Front-End Web Developer</span> with a passion for making websites that look good on any screen. My current areas of knowledge are with <span class="skills">HTML5</span>, <span class="skills">CSS3</span> and <span class="skills">UI/UX design</span>. <br />I am always learning new things and will add Javascript, Bootstrap, and jQuery to my repertoire.</p>
     </articl>
   </section>
-  <footer>
-    <a href="#">My Twitter</a>
-    <a href="">My Email</a>
+  <footer id="contact">
+    <div class="footer">
+      <h3>Follow me on <a class="link" href="https://twitter.com/KaemonIsland" target="_blank">Twitter</a></h3>
+      <div class="kaemon">
+        <img class="selfie" src="./resources/images/selfie.jpg" alt="Kaemon Lovendahl scared"/>
+      </div>
+      <h3>Send me an <a class="link" href="mailto:k-manskrazy@hotmail.com">Email</a></h3>
+    </div>
     <h4>Kaemon Lovendahl</h4>
   </footer>
 
