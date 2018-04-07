@@ -181,7 +181,7 @@ footer h4 {
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 650px) and (min-width: 476px){
   .mobile,
   .name h3 {
     display: none;
@@ -229,5 +229,65 @@ footer h4 {
  }
 }
 @media only screen and (max-width: 475px) {
+  svg,
+  .name h3 {
+    display: none;
+  }
+  /* Navigation */
+  .navigation {
+    justify-content: center;
+    height: 60px;
+  }
+  /* Header */
+  .header {
+    height: 17rem;
+    margin-top: 60px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .intro {
+    text-align: center;
+    padding: 0.5rem;
+    width: 100%;
+  }
+  .intro h2 {
+    font-size: 1.2rem;
+  }
+ /* Quote */
+ .quote {
+   margin-top: 3rem;
+   font-size: 1.1rem;
+   padding: .25rem 0;
+ }
+ /* Projects */
+ figure {
+   width: 75%;
+ }
+ .example {
+   flex-direction: column;
+   align-items: center;
+   flex-wrap: wrap;
+ }
+ .projects h2 {
+   font-size: 1.5rem;
+ }
+ /* About Me */
+ .about-me {
+   font-size: 1rem;
+ }
+ /* Footer */
+ .selfie {
+   width: 7rem;
+ }
+ footer {
+   padding: .2rem auto;
+ }
+ footer h4 {
+   font-size: 1.1rem;
+ }
+ .footer {
+   font-size: 1rem;
+ }
+
 
 }
