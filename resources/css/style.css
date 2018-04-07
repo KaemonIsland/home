@@ -32,7 +32,7 @@ body {
   width: 100%;
   z-index: 1;
   border-bottom: 2px solid #267F3E;
-  height: 100px;
+  height: 80px;
 }
 .name {
   display: flex;
@@ -52,7 +52,7 @@ body {
   background-repeat: no-repeat;
   height: 45rem;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,7 +68,7 @@ body {
 .quote {
   border: 2px solid black;
   border-radius: 5px;
-  padding: 1rem;
+  padding: .75rem;
   text-align: center;
   font-size: 1.5rem;
 }
@@ -76,10 +76,10 @@ body {
 .projects h2 {
   background-color: #4CFF7B;
   text-align: center;
-  padding: 1.5rem;
+  padding: 1rem;
   margin: 0 auto;
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   font-family: "Inknut Antiqua", serif;
   text-decoration: underline;
@@ -102,8 +102,8 @@ figure {
 }
 /* About Me */
 .about-me {
-  text-align: center;
-  font-size: 1.5rem;
+  text-align: justify;
+  font-size: 1.25rem;
   width: 70%;
   margin: 3rem auto;
   line-height: 1.5;
@@ -117,14 +117,14 @@ figure {
 }
 /* Footer */
 footer {
-background-color: #4CFF7B;
-padding: 5rem 0;
+  background-color: #4CFF7B;
+  padding: 1.5rem 0;
 }
 footer h4 {
   text-align: center;
   color: white;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-decoration: underline;
 }
 .footer {
@@ -135,7 +135,7 @@ footer h4 {
   font-size: 1.5rem;
 }
 .selfie {
-  width: 16rem;
+  width: 9rem;
   height: auto;
   border-radius: 50%;
   margin: 0 1rem;
@@ -151,7 +151,7 @@ footer h4 {
       justify-content: center;
   }
 }
-@media only screen and (max-width: 1024px), (orientation:landscape) {
+@media only screen and (max-width: 1024px) and (min-width: 651px) {
   /* Navigation */
   .mobile {
     display: none;
@@ -162,16 +162,72 @@ footer h4 {
   .name h3 {
     display: none;
   }
+
   /* Header */
   .header {
     justify-content: flex-start;
   }
   .intro {
+    margin-top: 11rem;
     margin-left: 2.5rem;
     font-size: 1.75rem;
+  }
+  .quote {
+    font-size: 1.25rem;
   }
   /* Projects */
   .example {
     flex-wrap: wrap;
   }
+}
+
+@media only screen and (max-width: 650px) {
+  .mobile,
+  .name h3 {
+    display: none;
+  }
+  /* Navigation */
+  .navigation {
+    justify-content: space-around;
+  }
+  /* Header */
+  .header {
+    height: 17rem;
+    margin-top: 80px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .intro {
+    text-align: center;
+    padding: 0.5rem;
+    width: 85%;
+  }
+  .intro h2 {
+    font-size: 1.5rem;
+  }
+ /* Quote */
+ .quote {
+   margin-top: 3rem;
+   font-size: 1.1rem;
+   padding: .25rem 0;
+ }
+ /* Projects */
+ figure {
+   width: 60%;
+ }
+ .example {
+   flex-direction: column;
+   align-items: center;
+   flex-wrap: wrap;
+ }
+ .projects h2 {
+   font-size: 2rem;
+ }
+ /* About Me */
+ .about-me {
+   font-size: 1.2rem;
+ }
+}
+@media only screen and (max-width: 475px) {
+
 }
