@@ -14,14 +14,21 @@
     backface-visibility: hidden;
   }
   &__author {
+    border-bottom: 1px solid $color-black;
     animation: fadeInDown 1.5s 300ms ease-out;
     @include animate-fade;
   }
   &__profession {
-    border-top: 1px solid $color-black;
     animation: fadeInUp 1.5s 1s ease-out;
     @include animate-fade;
   }
+  &__typewriter {
+    text-decoration: none;
+    color: #000;
+    border-right: 2px solid rgb(0, 0, 0);
+    animation: blinkTextCursor 1000ms steps(50) infinite normal;
+  }
+
   &__btn {
     animation: fadeIn 1s 2s ease-in;
     @include animate-fade;

@@ -11,12 +11,11 @@
   <title>Kaemon Lovendahl</title>
 </head>
 <body>
-  <!-- Navigation -->
+<!-- Navigation -->
   <nav class="navigation">
   </nav>
-  <!-- Header -->
+<!-- Header -->
   <header class="header">
-
     <div class="bg-video">
       <video class="bd-video__content" autoplay muted loop>
         <source src="./resources/video/Down-time.mp4" type="video/mp4">
@@ -27,59 +26,78 @@
 
     <div class="header__content">
         <div class="header__author">Kaemon Lovendahl</div>
-        <div class="header__profession">Front End Developer</div>
+        <div class="header__profession">
+          <h1>
+              <a href="" class="header__typewriter" data-period="2000" data-type='[ "Front End", "React", "Javascript" ]'></a>
+              Developer
+          </h1>
+        </div>
         <a href="#" class="header__btn btn btn-white">View My Latest Project &rarr;</a>
     </div>
   </header>
+
 <!-- Quote -->
-  <section>
-    <article>
-      <div class="quote">
-        <blockquote>"Life opens up opportunities to you, and you either take them or you stay afraid of taking them." <span class="speaker">-Jim Carrey</span></blockquote>
-      </div>
-    </article>
+  <!-- <section class="quote">
+    <div class="header__quote">
+      <blockquote>"Life opens up opportunities to you, and you either take them or you stay afraid of taking them." <span class="speaker">-Jim Carrey</span></blockquote>
+    </div>
+  </section> -->
 <!-- Project -->
-    <article>
-      <div class="projects" id="projects">
-        <h2>Projects</h2>
+    <section class="grid">
+      <div class="grid__title">
+        <h2>My Projects</h2>
       </div>
-      <div class="example">
-        <figure>
+      <div class="grid__container">
+        <figure class="grid__content">
           <a href="https://kaemonisland.github.io/MyTimes/" target="_blank">
-            <img class="website" src="./resources/images/MyTimes.jpg" alt="My Times website thumbnail">
+            <img class="grid__thumbnail" src="./resources/images/MyTimes.jpg" alt="My Times website thumbnail">
           </a>
         </figure>
-        <figure>
+        <figure class="grid__content">
           <a href="https://kaemonisland.github.io/SecretAgentSupply/" target="_blank">
-            <img class="website" src="./resources/images/SecretAgentSupply.jpg" alt="Secret Agent Supply website thumbnail">
+            <img class="grid__thumbnail" src="./resources/images/SecretAgentSupply.jpg" alt="Secret Agent Supply website thumbnail">
           </a>
         </figure>
-        <figure>
+        <figure class="grid__content">
           <a href="https://kaemonisland.github.io/TortoiseshellOptics/" target="_blank">
-            <img class="website" src="./resources/images/TortoiseshellOptics.jpg" alt="Tortoiseshell Optics website thumbnail">
+            <img class="grid__thumbnail" src="./resources/images/TortoiseshellOptics.jpg" alt="Tortoiseshell Optics website thumbnail">
+          </a>
+        </figure>
+        <figure class="grid__content">
+          <a href="https://kaemonisland.github.io/ColmarAcademy/" target="_blank">
+            <img class="grid__thumbnail" src="./resources/images/colmar.png" alt="colmar website thumbnail">
+          </a>
+        </figure>
+        <figure class="grid__content">
+          <a href="https://github.com/KaemonIsland/Ravenous" target="_blank">
+            <img class="grid__thumbnail" src="./resources/images/ravenous.png" alt="ravenous website thumbnail">
+          </a>
+        </figure>
+        <figure class="grid__content">
+          <a href="https://github.com/KaemonIsland/Jammming" target="_blank">
+            <img class="grid__thumbnail" src="./resources/images/jamming.png" alt="Jammming website thumbnail">
           </a>
         </figure>
       </div>
-    </article>
-    <article>
-      <div class="projects" id="about-me">
+    </section>
+    <section class="about">
+      <div class="about__title">
         <h2>About Me</h2>
       </div>
-      <div class="about-me">
-        <p>Hello, my name is <span class="author">Kaemon Lovendahl</span>. I am a <span>Junior Front-End Web Developer</span> with a passion for making websites that look good on any screen. My current areas of knowledge are with <span class="skills">HTML5</span>, <span class="skills">CSS3</span> and <span class="skills">UI/UX design</span>. I am always learning new things and will add Javascript, Bootstrap, and jQuery to my repertoire.</p>
+      <div class="about__content">
+        <p>Hello, my name is Kaemon Lovendahl. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos natus culpa quam quas qui? Blanditiis fugiat possimus, sint optio, ut molestiae sit, repellendus quasi repellat illo iure eos inventore modi?</p>
       </div>
-    </article>
+    </section>
   </section>
-  <footer id="contact">
-    <div class="footer">
-      <a class="link" href="https://twitter.com/KaemonIsland" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-      <div class="kaemon">
-        <img class="selfie" src="./resources/images/Profileglasses.jpeg" alt="Kaemon Lovendahl scared"/>
-      </div>
-      <a class="link" href="mailto:k-manskrazy@hotmail.com"><i class="fa fa-envelope fa-2x"></i></a>
+  <footer class="footer">
+    <div class="footer__flex">
+      <a class="footer__link" href="https://twitter.com/KaemonIsland" target="_blank"><i class="fa fa-twitter fa-5x"></i></a>
+      <img class="footer__selfie" src="./resources/images/Profileglasses.jpeg" alt="Kaemon Lovendahl"/>
+      <a class="footer__link" href="mailto:k-manskrazy@hotmail.com"><i class="fa fa-envelope fa-4x"></i></a>
     </div>
     <h4><a class="link"href="https://github.com/KaemonIsland" target="_blank">Kaemon Lovendahl</a></h4>
   </footer>
 </div>
+<script src="./resources/modules/typewriter.js"></script>
 </body>
 </html>

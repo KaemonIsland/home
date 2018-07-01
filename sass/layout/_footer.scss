@@ -1,0 +1,18 @@
+.footer {
+    padding: 3rem 0;
+    background-color: $color-grey;
+    &__flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__selfie {
+        margin: 0 2rem;
+        border-radius: 20rem;
+        width: 10rem;
+        height: auto;
+    }
+    &__link {
+        color: $color-secondary;
+    }
+}

@@ -28,3 +28,8 @@
     opacity: 1;
   }
 }
+
+@keyframes blinkTextCursor{
+  from, to{border-right-color: rgb(0, 0, 0);}
+  50% {border-right-color: transparent;}
+}
