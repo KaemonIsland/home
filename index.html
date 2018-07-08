@@ -1,103 +1,341 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./resources/css/reset.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua:700" rel="stylesheet">
-  <link rel="stylesheet" href="./resources/css/style.css">
-  <title>Kaemon Lovendahl</title>
+	<title>Kaemon Lovendahl</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	
+	
+	<!-- Font -->
+	
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
+	
+	<!-- Stylesheets -->
+	
+	<link href="common-css/bootstrap.css" rel="stylesheet">
+	
+	<link href="common-css/ionicons.css" rel="stylesheet">
+	
+	<link href="common-css/fluidbox.min.css" rel="stylesheet">
+	
+	<link href="01-cv-portfolio/css/styles.css" rel="stylesheet">
+	
+	<link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
+	
 </head>
 <body>
-<!-- Navigation -->
-  <nav class="navigation">
-  </nav>
-<!-- Header -->
-  <header class="header">
-    <div class="bg-video">
-      <video class="bd-video__content" autoplay muted loop>
-        <source src="./resources/video/Down-time.mp4" type="video/mp4">
-        <source src="./resources/video/Down-time.webm" type="video/webm">
-        Your browser is not supported.
-      </video>
-    </div>
+	
+	<header>
+		<div class="container">
+			<div class="heading-wrapper">
+				<div class="row">
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="info">
+							<i class="icon ion-ios-location-outline"></i>
+							<div class="right-area">
+								<h5>Salt Lake City, UT</h5>
+							</div><!-- right-area -->
+						</div><!-- info -->
+					</div><!-- col-sm-4 -->
+					
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="info">
+							<i class="icon ion-ios-telephone-outline"></i>
+							<div class="right-area">
+								<h5>801-833-7007</h5>
+								<h6>8AM - 7PM</h6>
+							</div><!-- right-area -->
+						</div><!-- info -->
+					</div><!-- col-sm-4 -->
+					
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="info">
+							<i class="icon ion-ios-chatboxes-outline"></i>
+							<div class="right-area">
+								<h5>k-manskrazy@hotmail.com</h5>
+								<h6>REPLY IN 24 HOURS</h6>
+							</div><!-- right-area -->
+						</div><!-- info -->
+					</div><!-- col-sm-4 -->
+				</div><!-- row -->
+			</div><!-- heading-wrapper -->
+			
+		</div><!-- container -->
+	</header>
+	
+	<section class="intro-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1 col-lg-2"></div>
+				<div class="col-md-10 col-lg-8">
+					<div class="intro">
+						<div class="profile-img"><img src="resources/images/Profileglasses.jpeg" alt=""></div>
+						<h2><b>Kaemon Lovendahl</b></h2>
+						<h4 class="font-yellow">Front End Developer</h4>
+						<ul class="information margin-tb-30">
+							<li><b>EMAIL : </b>kaemonlovendahl14@hotmail.com</li>
+						</ul>
+						<ul class="social-icons">
+							<li><a href="https://www.linkedin.com/in/kaemon-lovendahl-08150564/"><i class="ion-social-linkedin"></i></a></li>
+							<li><a href="mailto:kaemonlovendahl14@hotmail.com"><i class="ion-android-mail"></i></a></li>
+							<li><a href="https://github.com/KaemonIsland"><i class="ion-social-github"></i></a></li>
+							<li><a href="https://twitter.com/KaemonIsland?lang=en"><i class="ion-social-twitter"></i></a></li>
+						</ul>
+					</div><!-- intro -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- intro-section -->
+	
+	<section class="portfolio-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Portfolio</b></h3>
+						<h6 class="font-lite-black"><b>MY WORK</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+					<div class="portfolioFilter clearfix margin-b-80">
+						<a href="#" data-filter="*" class="current"><b>ALL</b></a>
+						<a href="#" data-filter=".web-design"><b>CODECADEMY</b></a>
+						<a href="#" data-filter=".branding"><b>REACT</b></a>
+						<a href="#" data-filter=".graphic-design"><b>GRAPHIC DESIGN</b></a>
+					</div><!-- portfolioFilter -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		
+		<div class="portfolioContainer">
+			
+			<div class="p-item web-design">
+				<a href="resources/images/colmar.png" data-fluidbox>
+					<img src="resources/images/colmar.png" alt="Colmar Academy Project"></a>
+			</div><!-- p-item -->
+			
+			<div class="p-item branding">
+				<a href="resources/images/jamming.png" data-fluidbox>
+					<img src="resources/images/jamming.png" alt=""></a>
+			</div><!-- p-item -->
+			
+			<div class="p-item web-design">
+				<a href="resources/images/MyTimes.jpg" data-fluidbox>
+					<img src="resources/images/MyTimes.jpg" alt=""></a>
+			</div><!-- p-item -->
+			
+			<div class="p-item branding">
+				<a class="img" href="resources/images/ravenous.png" data-fluidbox>
+					<img src="resources/images/ravenous.png" alt=""></a>
+			</div><!-- p-item -->
+			
+			<div class="p-item web-design">
+				<a href="resources/images/SecretAgentSupply.jpg" data-fluidbox>
+					<img src="resources/images/SecretAgentSupply.jpg" alt=""></a>
+			</div><!-- p-item -->
+			
+			<div class="p-item web-design">
+				<a href="resources/images/TortoiseshellOptics.jpg" data-fluidbox>
+					<img src="resources/images/TortoiseshellOptics.jpg" alt=""></a>
+			</div>
+			<!--
+			<div class="p-item  graphic-design branding">
+				<a href="images/portfolio-5-600x800.jpg" data-fluidbox>
+					<img src="images/portfolio-5-600x800.jpg" alt=""></a>
+			</div>
+				
+			<div class="p-item web-design branding">
+				<a href="images/portfolio-6-600x800.jpg" data-fluidbox>
+					<img src="images/portfolio-6-600x800.jpg" alt=""></a>
+			</div>
 
-    <div class="header__content">
-        <div class="header__author">Kaemon Lovendahl</div>
-        <div class="header__profession">
-          <h1>
-              <a href="" class="header__typewriter" data-period="2000" data-type='[ "Front End", "React", "Javascript" ]'></a>
-              Developer
-          </h1>
-        </div>
-        <a href="#" class="header__btn btn btn-white">View My Latest Project &rarr;</a>
-    </div>
-  </header>
+			<div class="p-item p-item-2 graphic-design">
+				<a class="img" href="images/portfolio-10-300x400.jpg" data-fluidbox>
+					<img src="images/portfolio-10-300x400.jpg" alt=""></a>
+				<a class="img" href="images/portfolio-11-300x400.jpg" data-fluidbox>
+					<img src="images/portfolio-11-300x400.jpg" alt=""></a>
+			</div>-->
+		
+		</div><!-- portfolioContainer -->
+		
+	</section><!-- portfolio-section -->
+	
+	
+	<section class="about-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>About me</b></h3>
+						<h6 class="font-lite-black"><b>PROFESSIONAL PATH</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+					<p class="margin-b-50">I am a professional Front End developer committed to learning as much
+						about code as I possibly can. Currently my favorite learning avenues are Udemy, FreeCodeCamp, and Codecademy. I am constantly practicing my skills, and working to be a Full Stack Developer.
+					</p>
+					
+					<div class="row">
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".97">
+									<div></div>
+									<h6 class="progress-title">HTML5 & CSS3</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+					
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".78">
+									<div></div>
+									<h6 class="progress-title">REACT.JS</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+						
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".85">
+									<div></div>
+									<h6 class="progress-title">JAVASCRIPT</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+						
+						<!--<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-50">
+								<div class="radial-progress" data-prog-percent=".97">
+									<div></div>
+									<h6 class="progress-title">PHP</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						<!--</div><!-- col-sm-6-->
+					
+					</div><!-- row -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- about-section -->
+	
+	<section class="experience-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Work Experience</b></h3>
+						<h6 class="font-lite-black"><b>PREVIOUS JOBS</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+				
+					<div class="experience margin-b-50">
+						<h4><b>PRODUCTION ANALYST</b></h4>
+						<h5 class="font-yellow"><b>Verisys Corporations</b></h5>
+						<h6 class="margin-t-10">DECEMBER 2014 - PRESENT</h6>
+						<p class="font-semi-white margin-tb-30">I researched and evaluated potential new hires for external customers, while working as part of a team. My responsibilities included working quickly and accurately, while assisting other coworkers and new hires.</p>
+						<ul class="list margin-b-30">
+							<li>Sharp eye for details and ability to spot any deviations, abnormalities, and anomalies.</li>
+							<li>Ability to take ownership and initiative on tasks and projects.</li>
+							<li>Ability to learn quickly and adjust priorities throughout the day.</li>
+							<li>Uncompromising approach to meeting/exceeding requirements for quality and quantity.</li>
+						</ul>
+					</div><!-- experience -->
+					
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		
+	</section><!-- experience-section -->
+	
+	<section class="education-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Education</b></h3>
+						<h6 class="font-lite-black"><b>ACADEMIC CAREER</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+					<div class="education-wrapper">
+						<div class="education margin-b-50">
+							<h4><b>ASSOCIATES DEGREE IN SCIENCE</b></h4>
+							<h5 class="font-yellow"><b>SOUTHERN UTAH UNIVERISTY</b></h5>
+							<h6 class="font-lite-black margin-t-10">GRADUATED IN MAY 2014 (2 YEARS)</h6>
+						</div><!-- education -->
+					</div><!-- education-wrapper -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		
+	</section><!-- about-section -->
+	
+	<section class="counter-section" id="counter">
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-sm-6 col-md-6 col-lg-5">
+					<div class="counter margin-b-30">
+						<h1 class="title"><b><span class="counter-value" data-duration="400" data-count="3">0</span></b></h1>
+						<h5 class="desc"><b>Coding Certificates</b></h5>
+					</div><!-- counter -->
+				</div><!-- col-md-3-->
+				
+				<div class="col-sm-6 col-md-6 col-lg-5">
+					<div class="counter margin-b-30">
+						<h1 class="title"><b><span class="counter-value" data-duration="1400" data-count="8">0</span></b></h1>
+						<h5 class="desc"><b>Projects Completed</b></h5>
+					</div><!-- counter -->
+				</div><!-- col-md-3-->
+				
+				<!--<div class="col-sm-6 col-md-6 col-lg-3">
+					<div class="counter margin-b-30">
+						<h1 class="title"><b><span class="counter-value" data-duration="700" data-count="311">0</span></b></h1>
+						<h5 class="desc"><b>Satisfied Clients</b></h5>
+					</div><!-- counter
+				</div><!-- col-md-3
+				
+				<div class="col-sm-6 col-md-6 col-lg-3">
+					<div class="counter margin-b-30">
+						<h1 class="title"><b><span class="counter-value" data-duration="2000" data-count="732">0</span></b></h1>
+						<h5 class="desc"><b>Finished Projects</b></h5>
+					</div><!-- margin-b-30
+				</div><!-- col-md-3-->
+				
+			</div><!-- row-->
+		</div><!-- container-->
+    </section><!-- counter-section-->
+	
+	<footer>
+		<p class="copyright">
+			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ion-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+		</p>
 
-<!-- Quote -->
-  <!-- <section class="quote">
-    <div class="header__quote">
-      <blockquote>"Life opens up opportunities to you, and you either take them or you stay afraid of taking them." <span class="speaker">-Jim Carrey</span></blockquote>
-    </div>
-  </section> -->
-<!-- Project -->
-    <section class="grid">
-      <div class="grid__title">
-        <h2>My Projects</h2>
-      </div>
-      <div class="grid__container">
-        <figure class="grid__content">
-          <a href="https://kaemonisland.github.io/MyTimes/" target="_blank">
-            <img class="grid__thumbnail" src="./resources/images/MyTimes.jpg" alt="My Times website thumbnail">
-          </a>
-        </figure>
-        <figure class="grid__content">
-          <a href="https://kaemonisland.github.io/SecretAgentSupply/" target="_blank">
-            <img class="grid__thumbnail" src="./resources/images/SecretAgentSupply.jpg" alt="Secret Agent Supply website thumbnail">
-          </a>
-        </figure>
-        <figure class="grid__content">
-          <a href="https://kaemonisland.github.io/TortoiseshellOptics/" target="_blank">
-            <img class="grid__thumbnail" src="./resources/images/TortoiseshellOptics.jpg" alt="Tortoiseshell Optics website thumbnail">
-          </a>
-        </figure>
-        <figure class="grid__content">
-          <a href="https://kaemonisland.github.io/ColmarAcademy/" target="_blank">
-            <img class="grid__thumbnail" src="./resources/images/colmar.png" alt="colmar website thumbnail">
-          </a>
-        </figure>
-        <figure class="grid__content">
-          <a href="https://github.com/KaemonIsland/Ravenous" target="_blank">
-            <img class="grid__thumbnail" src="./resources/images/ravenous.png" alt="ravenous website thumbnail">
-          </a>
-        </figure>
-        <figure class="grid__content">
-          <a href="https://github.com/KaemonIsland/Jammming" target="_blank">
-            <img class="grid__thumbnail" src="./resources/images/jamming.png" alt="Jammming website thumbnail">
-          </a>
-        </figure>
-      </div>
-    </section>
-    <section class="about">
-      <div class="about__title">
-        <h2>About Me</h2>
-      </div>
-      <div class="about__content">
-        <p>Hello, my name is Kaemon Lovendahl. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos natus culpa quam quas qui? Blanditiis fugiat possimus, sint optio, ut molestiae sit, repellendus quasi repellat illo iure eos inventore modi?</p>
-      </div>
-    </section>
-  </section>
-  <footer class="footer">
-    <div class="footer__flex">
-      <a class="footer__link" href="https://twitter.com/KaemonIsland" target="_blank"><i class="fa fa-twitter fa-5x"></i></a>
-      <img class="footer__selfie" src="./resources/images/Profileglasses.jpeg" alt="Kaemon Lovendahl"/>
-      <a class="footer__link" href="mailto:k-manskrazy@hotmail.com"><i class="fa fa-envelope fa-4x"></i></a>
-    </div>
-    <h4><a class="link"href="https://github.com/KaemonIsland" target="_blank">Kaemon Lovendahl</a></h4>
-  </footer>
-</div>
-<script src="./resources/modules/typewriter.js"></script>
+
+	</footer>
+	
+	
+	<!-- SCIPTS -->
+	
+	<script src="common-js/jquery-3.2.1.min.js"></script>
+	
+	<script src="common-js/tether.min.js"></script>
+	
+	<script src="common-js/bootstrap.js"></script>
+	
+	<script src="common-js/isotope.pkgd.min.js"></script>
+	
+	<script src="common-js/jquery.waypoints.min.js"></script>
+	
+	<script src="common-js/progressbar.min.js"></script>
+	
+	<script src="common-js/jquery.fluidbox.min.js"></script>
+	
+	<script src="common-js/scripts.js"></script>
+	
 </body>
 </html>
