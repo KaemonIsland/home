@@ -1,30 +1,16 @@
 {
-  "name": "kaemonportfolio",
-  "version": "1.0.0",
-  "description": "My portfolio website",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
+  "name": "personal_portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "1.1.5"
   },
   "scripts": {
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KaemonIsland/Portfolio.git"
-  },
-  "author": "Kaemon Lovendahl",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KaemonIsland/Portfolio/issues"
-  },
-  "homepage": "https://github.com/KaemonIsland/Portfolio#readme",
-  "devDependencies": {
-    "eslint": "^5.0.1",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-standard": "^3.1.0",
-    "node-sass": "^4.9.0"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
