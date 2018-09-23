@@ -1,8 +1,8 @@
 import React from 'react';
-import { IconLink } from '../link/link';
-import { TypeName } from './typename';
-import returnVideo from './video';
-import styles from './home.css';
+import IconLink from '../components/IconLink/IconLink';
+import TypeName from './TypeName/TypeName';
+import returnVideo from './BgVideo/BgVideo';
+import styles from './Home.css';
 
 class HomePage extends React.Component {
 

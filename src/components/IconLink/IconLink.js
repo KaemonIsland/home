@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithubSquare, FaTwitterSquare, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import { IconContext } from 'react-icons';
-import styles from './link.css'
+import styles from './IconLink.css'
 
 let links = {
   github: 'https://github.com/KaemonIsland',
@@ -10,7 +10,7 @@ let links = {
   email: 'mailto:kaemonlovendahl14@hotmail.com'
 }
 
-export class IconLink extends React.Component {
+class IconLink extends React.Component {
 
   icon(iconType) {
     switch (iconType) {
@@ -39,3 +39,5 @@ export class IconLink extends React.Component {
     )
   }
 }
+
+export default IconLink

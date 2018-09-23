@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './typename.css';
+import styles from './TypeName.css';
 import Typing from 'react-typing-animation';
 
-export class TypeName extends React.Component {
+class TypeName extends React.Component {
   
   render() {
     return (
@@ -32,3 +32,5 @@ export class TypeName extends React.Component {
     )
   }
 }
+
+export default TypeName;

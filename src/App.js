@@ -1,12 +1,19 @@
 import React, { Component } from 'react';
 import './global.css';
-import HomePage from './homepage/home';
+import Home from './Home/Home';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      page: ''
+    }
+  }
+
   render() {
     return (
       <div className="App">
-        <HomePage />
+        <Home />
       </div>
     );
   }
