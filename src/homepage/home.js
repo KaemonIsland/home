@@ -1,5 +1,6 @@
 import React from 'react';
-import { IconLink } from './link';
+import { IconLink } from '../link/link';
+import { TypeName } from './typename';
 import returnVideo from './video';
 import styles from './home.css';
 
@@ -10,10 +11,12 @@ class HomePage extends React.Component {
       <div>
         {returnVideo()}
         <div className={styles.grid}>
-          <IconLink icon="github" />
-          <IconLink icon="twitter" />
-          <IconLink icon="linkedin" />
-          <IconLink icon="email" />
+          <IconLink link="github" />
+          <IconLink link="twitter" />
+          <IconLink link="linkedin" />
+          <IconLink link="email" />
+
+          <TypeName className={styles.typeName} />
         </div>
       </div>
     );

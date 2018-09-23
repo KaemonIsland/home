@@ -1,0 +1,17 @@
+.link {
+  background-color: transparent;
+  padding: .5rem;
+  border-radius: .5rem;
+  transition: all 200ms ease-in;
+}
+
+.link:hover {
+  
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .7);
+  transform: translateY(-3px);
+}
+
+.link:active {
+  transform: translateY(-1px);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .5);
+}
