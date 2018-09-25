@@ -2,7 +2,9 @@ import React from 'react';
 import IconLink from '../components/IconLink/IconLink';
 import TypeName from './TypeName/TypeName';
 import returnVideo from './BgVideo/BgVideo';
+import ProfileCard from '../components/ProfileCard/ProfileCard';
 import styles from './Home.css';
+import '../components/ProfileCard/ProfileCard.css';
 
 class HomePage extends React.Component {
 
@@ -16,7 +18,13 @@ class HomePage extends React.Component {
           <IconLink link="linkedin" />
           <IconLink link="email" />
 
-          <TypeName className={styles.typeName} />
+          <div className={styles.typeName}>
+            <TypeName />
+          </div>
+
+          <div className={styles.flipCard}>
+            <ProfileCard name="Kaemon Lovendahl" title="Front End Developer" />
+          </div>
         </div>
       </div>
     );

@@ -12,3 +12,7 @@
   font-size: 4rem;
   grid-area: 2 / 2 / 2 / 4;
 }
+
+.flipCard {
+  grid-area: 3 / 2 / 3 / 4;
+}
