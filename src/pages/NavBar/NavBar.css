@@ -1,0 +1,17 @@
+.navBar {
+  text-align: center;
+  background-color: #5E7EEF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 0.1rem solid #0A206C;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+}
+
+.links {
+  display: flex;
+}
+
+.title {
+  font-size: 1.3rem;
+}

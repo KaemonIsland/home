@@ -1,18 +1,21 @@
 import React from 'react';
 import styles from './ProfileCard.css';
-import profilePic from '../../assets/Images/PortfolioSelfie.jpeg'
+import kaemonProfile from '../../assets/Images/PortfolioSelfie.jpeg'
+import kaemonToon from '../../assets/Images/KaemonToonZoom.png'
 
-class FlipCard extends React.Component {
-
+class ProfileCard extends React.Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
+
+    let picture = this.props.picture === 'kaemon' ? kaemonProfile : kaemonToon;
     return (
-      <div className={styles.card}>
-        <img src={profilePic} />
-        <div className={styles.cardName}>{this.props.name}</div>
-        <div className={styles.cardTitle}><p>{this.props.title}</p></div>
+      <div className={styles[this.props.size]}>
+        <img className={styles.profile} src={picture} alt='Kaemon Lovendahl'/>
       </div>
     )
   }
 }
 
-export default FlipCard;
+export default ProfileCard;

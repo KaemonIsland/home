@@ -1,0 +1,17 @@
+.menuWrapper {
+  position: relative;
+}
+
+.menu {
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem 3.5rem;
+  border-radius: 2rem;
+  border: 0.1rem solid #0A206C;
+  list-style: none;
+}
+
+.menu:hover {
+  background-color: white;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaGithubSquare, FaTwitterSquare, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import PropTypes from 'prop-types';
+import { FaGithubSquare, FaTwitterSquare, FaLinkedin, FaEnvelope, FaBomb } from 'react-icons/fa';
 import { IconContext } from 'react-icons';
 import styles from './IconLink.css'
 
@@ -22,22 +23,30 @@ class IconLink extends React.Component {
         return <FaLinkedin />;
       case "email":
         return <FaEnvelope />;
+      default:
+        return <FaBomb />;
     }
   }
 
   render() {
+    let link = this.props.link;
+
     return (
       <div className={styles.link} >
-        <a href={links[this.props.link]}>
-          <IconContext.Provider value={{ color: 'black', size: '6rem'}}>
+        <a href={links[link]} target={link === 'email' ? '_self' : '_blank'}>
+          <IconContext.Provider value={{ color: 'white', size: '5rem'}}>
             <div>
-              {this.icon(this.props.link)}
+              {this.icon(link)}
             </div>
           </IconContext.Provider>
         </a>
       </div>
     )
   }
+}
+
+IconLink.propTypes = {
+  link: PropTypes.string.isRequired
 }
 
 export default IconLink
